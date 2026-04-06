@@ -169,7 +169,7 @@ This section therefore has both documentation value and practical notebook evide
 
 ---
 
-# 📂 Repository Structure
+# 📂 Folder Structure
 
 ```text
 04-openai-api-and-huggingface/
