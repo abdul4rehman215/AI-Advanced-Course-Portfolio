@@ -17,7 +17,7 @@ This assignment is centered on classification models, related concepts, and eval
 - sampling with replacement
 - evaluation metrics for classification
 
-## Expected file for this folder
+## File for this folder
 ```text
 Research_Assignment_01_Abdul_Rehman.pdf
 ```
