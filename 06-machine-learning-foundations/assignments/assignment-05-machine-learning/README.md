@@ -13,7 +13,7 @@ This assignment applies machine learning workflows to both regression and classi
 - build a decision tree regressor for diabetes progression
 - apply preprocessing, training, and evaluation steps properly
 
-## Expected file for this folder
+## File for this folder
 ```text
 Assignment_05_Abdul_Rehman.ipynb
 ```
