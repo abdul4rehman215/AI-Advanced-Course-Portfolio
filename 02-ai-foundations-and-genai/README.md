@@ -195,7 +195,7 @@ That matters for building better systems later, especially when connecting AI to
 
 ---
 
-# 📂 Recommended Folder Structure
+# 📂 Folder Structure
 
 ```text
 02-ai-foundations-and-genai/
