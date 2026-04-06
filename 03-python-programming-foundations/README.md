@@ -187,9 +187,7 @@ This means this section is not only theory-based in the repository. It has pract
 
 ---
 
-# 🧰 Recommended Notebook Placement For This Folder
-
-I recommend organizing the cleaned notebook work in this section like this:
+# Repository Structure
 
 ```text
 03-python-programming-foundations/
@@ -215,7 +213,7 @@ I recommend organizing the cleaned notebook work in this section like this:
 
 # 📝 Assignment Integration In This Section
 
-The first two coding assignments belong naturally in this folder.
+The first two coding assignments belongs in this folder.
 
 ## Assignment 01
 **Collections, Operators, If Else, Loops**
@@ -317,7 +315,6 @@ That foundation is essential for building reliable and maintainable AI-related w
 |------|--------|
 | Lecture learning | ✅ Completed for current progress |
 | Practice notebooks | ✅ Done for major parts of this section |
-| Notebook cleanup and renaming | 🟡 To be finalized before GitHub placement |
 | Assignment 01 | ⏳ Pending implementation |
 | Assignment 02 | ⏳ Pending implementation |
 | Topic README | ✅ Prepared |
