@@ -143,11 +143,9 @@ That means this folder is currently stronger in:
 - process notes
 - assignment and research integration planning
 
-As I continue expanding the repo, more cleaned notebooks and EDA-driven artifacts can be added here.
-
 ---
 
-# 📂 Recommended Folder Structure
+# 📂 Folder Structure
 
 ```text
 05-data-science-foundations/
@@ -279,7 +277,6 @@ That is important for real project work because weak preprocessing often leads t
 |------|--------|
 | Lecture learning | ✅ Completed for current progress |
 | Documentation and notes | ✅ Ready to structure |
-| Practical notebooks | 🟡 Lighter than later ML section |
 | Assignment 04 | ⏳ Pending implementation |
 | Research Assignment 02 | ⏳ Pending completion as PDF |
 | Topic README | ✅ Prepared |
