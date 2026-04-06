@@ -12,7 +12,7 @@ This assignment combines conceptual understanding and practical AI tooling.
 - OpenAI usage understanding
 - Hugging Face basics and model usage
 
-## Expected file for this folder
+## file for this folder
 ```text
 Assignment_03_Abdul_Rehman.ipynb
 ```
