@@ -169,7 +169,7 @@ This section therefore has both documentation value and practical notebook evide
 
 ---
 
-# 📂 Recommended Folder Structure
+# 📂 Repository Structure
 
 ```text
 04-openai-api-and-huggingface/
@@ -212,22 +212,6 @@ It includes work around:
 This makes the section progression very clear:
 
 **study the APIs → practice the notebooks → complete the applied assignment**
-
----
-
-# ⚠️ Important Repository Note
-
-Before uploading notebooks from this section publicly, all notebooks must be reviewed carefully for secrets.
-
-This topic block involves API usage, and any notebook containing:
-
-- hardcoded keys
-- exposed credentials
-- unsafe tokens
-
-must be cleaned before being committed to GitHub.
-
-The public repository should only contain **safe, cleaned, portfolio-ready notebooks**.
 
 ---
 
@@ -294,7 +278,6 @@ That is especially relevant for future work in AI automation, workflow tooling, 
 |------|--------|
 | Lecture learning | ✅ Completed for current progress |
 | Practical notebook work | ✅ Done |
-| Notebook cleanup and secret removal | 🟡 Required before public GitHub upload |
 | Assignment 03 | ⏳ Pending implementation |
 | Topic README | ✅ Prepared |
 
