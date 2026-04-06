@@ -12,9 +12,10 @@ This assignment combines conceptual understanding and practical AI tooling.
 - OpenAI usage understanding
 - Hugging Face basics and model usage
 
-## file for this folder
+## File for this folder
 ```text
 Assignment_03_Abdul_Rehman.ipynb
+assignment_03_abdul_rehman.py
 ```
 
 This assignment belongs inside the OpenAI / Hugging Face topic folder because it directly extends the content studied in lectures 12, 13, and 14.
