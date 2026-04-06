@@ -252,8 +252,8 @@ That matters for building better systems later, especially when connecting AI to
 | Lecture summaries | ✅ Covered |
 | Notes | ✅ Ready to document in structured form |
 | Practical notebook work | 🟡 Mostly concept-focused section |
-| Assignment work in this section | ⏳ None directly integrated here |
-| Folder documentation | ✅ This README prepared |
+| Assignment work in this section | 🟡 None directly integrated here |
+| Folder documentation | ✅ This README is prepared |
 
 ---
 
