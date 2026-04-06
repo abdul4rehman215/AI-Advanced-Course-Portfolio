@@ -17,7 +17,7 @@ This assignment is meant to reinforce the practical Python basics covered in the
 - build and iterate through a student dictionary
 - solve conditional logic and loop-based beginner tasks
 
-## Expected file for this folder
+## File for this folder
 ```text
 Assignment_01_Abdul_Rehman.ipynb
 ```
