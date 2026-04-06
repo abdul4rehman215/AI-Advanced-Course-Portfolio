@@ -170,7 +170,7 @@ So this section has both conceptual learning and visible practical evidence.
 
 ---
 
-# 📂 Recommended Folder Structure
+# 📂 Folder Structure
 
 ```text
 06-machine-learning-foundations/
@@ -305,7 +305,6 @@ In a portfolio context, this makes the repository stronger because it shows that
 |------|--------|
 | Lecture learning | ✅ Completed for current progress |
 | Practice notebooks | ✅ Done |
-| Notebook cleanup and renaming | 🟡 To be finalized before public GitHub upload |
 | Assignment 05 | ⏳ Pending implementation |
 | Research Assignment 01 | ⏳ Pending completion as PDF |
 | Topic README | ✅ Prepared |
