@@ -12,7 +12,7 @@ This assignment is centered on EDA and data visualization practice.
 - explore the Titanic dataset
 - analyze a Netflix dataset through distributions, countries, release trends, genres, and ratings
 
-## file for this folder
+## File for this folder
 ```text
 Assignment_04_Abdul_Rehman.ipynb
 ```
