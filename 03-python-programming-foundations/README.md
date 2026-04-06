@@ -187,7 +187,7 @@ This means this section is not only theory-based in the repository. It has pract
 
 ---
 
-# Repository Structure
+# 📂 Folder Structure
 
 ```text
 03-python-programming-foundations/
