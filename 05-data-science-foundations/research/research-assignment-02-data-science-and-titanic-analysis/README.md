@@ -16,7 +16,7 @@ This assignment is theory-heavy and centered on the data science process.
 - classification vs regression understanding
 - initial dataset observations and cleaning needs
 
-## Expected file for this folder
+## File for this folder
 ```text
 Research_Assignment_02_Abdul_Rehman.pdf
 ```
