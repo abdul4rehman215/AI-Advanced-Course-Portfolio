@@ -13,7 +13,7 @@ This assignment extends the Python foundation by combining basic syntax with sma
 - calculating BMI
 - solving beginner-level conditional and logic questions
 
-## Expected file for this folder
+## File for this folder
 ```text
 Assignment_02_Abdul_Rehman.ipynb
 ```
