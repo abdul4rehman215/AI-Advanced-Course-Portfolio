@@ -1,6 +1,6 @@
 # 🤖 AI Advanced Course Learning Portfolio
 
-### A documentation-first, hands-on portfolio of my learning journey through **Irfan Malik's AI Advanced Course**
+### A documentation-first, hands-on portfolio of my learning journey through [**`Irfan Malik Sir AI Advanced Course`**](https://youtube.com/playlist?list=PLxf3-FrL8GzRALeq_9BtdQclN6SF4bTCG&si=zqwnIGMh6iUgH_Vu)
 ### Covering **AI foundations, Generative AI, Python, APIs, Hugging Face, Data Science, and early Machine Learning** — with practice notebooks, topic-wise documentation, and assignment work organized as an ongoing portfolio
 
 <div align="center">
