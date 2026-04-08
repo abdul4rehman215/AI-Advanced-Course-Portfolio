@@ -1,0 +1,85 @@
+# =========================
+# AI / Python / Colab repo
+# =========================
+
+# --- Secrets / credentials ---
+.env
+.env.*
+*.env
+.envrc
+*.secret
+secrets/
+credentials/
+private/
+config.local.*
+config.private.*
+
+# API keys / service accounts / tokens
+service-account*.json
+*service_account*.json
+google-credentials*.json
+gcp-credentials*.json
+aws-credentials*
+.azure/
+.token
+tokens/
+token.json
+auth.json
+client_secret*.json
+oauth*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+.profile_default/
+*/.ipynb_checkpoints/*
+
+# --- Build / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Test / lint / coverage ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Logs / temp ---
+*.log
+logs/
+tmp/
+temp/
+
+# --- Local datasets / large generated files (optional) ---
+# Uncomment if you do NOT want local data files tracked
+# data/
+# datasets/
+# outputs/
+# artifacts/
