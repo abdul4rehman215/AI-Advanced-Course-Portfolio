@@ -26,7 +26,6 @@
   <img src="https://img.shields.io/badge/Environment-Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black" />
   <img src="https://img.shields.io/badge/Approach-Study%20%E2%86%92%20Practice%20%E2%86%92%20Document%20%E2%86%92%20Build-455A64?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Structure-Topic%20Wise%20Portfolio-546E7A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Notebook%20Style-Renamed%20and%20Organized-5E35B1?style=for-the-badge" />
 </p>
 
 <p>
