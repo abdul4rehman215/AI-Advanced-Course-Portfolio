@@ -1,30 +1,30 @@
 # 🤖 AI Advanced Course Portfolio
 
-### A documentation-first learning portfolio built around my progress through [**`Irfan Malik Sir’s AI Advanced Course`**](https://youtube.com/playlist?list=PLxf3-FrL8GzRALeq_9BtdQclN6SF4bTCG)
-### Covering my current work in **AI foundations, Generative AI, Python, APIs, Hugging Face, Data Science, and Machine Learning**, with the repository designed to expand further as I continue the course
+### A documentation-first, project-backed portfolio built around my full journey through [**`Irfan Malik Sir’s AI Advanced Course`**](https://youtube.com/playlist?list=PLxf3-FrL8GzRALeq_9BtdQclN6SF4bTCG)
+
+### Covering **AI Foundations, Generative AI, Python, APIs, Hugging Face, Data Science, Machine Learning, Deep Learning, CNNs, Autoencoders, Sequence Models, Transformers, and RAG with LangChain**
 
 <div align="center">
 
 <p>
   <img src="https://img.shields.io/badge/Portfolio-AI%20Learning%20Portfolio-7B61FF?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Course-AI%20Advanced%20Course-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Current%20Progress-Orientation%20%2B%20Lectures%201--19-0288D1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-In%20Progress-00C853?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Completed%20Course%20Coverage-00C853?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Scope-Orientation%20%2B%20Lectures%201--41-0288D1?style=for-the-badge" />
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/Focus-AI%20Foundations-6A1B9A?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Generative%20AI-8E24AA?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Python%20Programming-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Focus-OpenAI%20API-10A37F?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Focus-Data%20Science-1565C0?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Machine%20Learning-D32F2F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Deep%20Learning-5E35B1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-RAG%20%26%20LangChain-FF6F00?style=for-the-badge" />
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/Environment-Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black" />
-  <img src="https://img.shields.io/badge/Approach-Study%20%E2%86%92%20Practice%20%E2%86%92%20Document%20%E2%86%92%20Build-455A64?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Environment-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Approach-Study%20%E2%86%92%20Practice%20%E2%86%92%20Build%20%E2%86%92%20Document-455A64?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Structure-Topic%20Wise%20Portfolio-546E7A?style=for-the-badge" />
 </p>
 
@@ -41,260 +41,390 @@
 
 # 📌 Executive Summary
 
-This repository is my **ongoing AI learning portfolio** built around the course material I have been studying, practicing, and documenting from **Irfan Malik Sir’s AI Advanced Course**.
+This repository is my **complete AI Advanced Course learning portfolio**, built to document not only what I studied, but also what I practiced, implemented, tested, and organized into a professional GitHub portfolio format.
 
-The repository is organized topic by topic so that each section reflects a complete learning block:
+Instead of keeping raw lecture files or loose notebooks, I structured the repository topic by topic so that each section clearly shows:
 
 - what I studied
-- what I understood
-- what I practiced
-- which notebooks belong to that topic
-- which assignment work belongs in that topic
-- how the topic connects to the rest of the course
+- what I understood in my own words
+- what I practiced through notebooks
+- which assignments belong to that topic
+- which research work belongs to that topic
+- how the topic connects to real AI system building
 
-At the moment, this repository documents my progress through:
+This portfolio now covers the full course journey from:
 
-## ✅ Orientation + Lectures 1–19
+**Orientation → AI foundations → Generative AI → Python → APIs → Hugging Face → Data Science → Machine Learning → Evaluation Metrics → Deep Learning → CNNs → Autoencoders → Sequence Models → Transformers → RAG and LangChain**
 
-That coverage includes:
+---
 
-- AI, ML, and DL foundations
-- learning paradigms and data types
-- Generative AI fundamentals
-- prompt engineering
-- diffusion models
-- Python fundamentals and control flow
-- API concepts and OpenAI usage
-- Hugging Face pipelines
-- Data Science foundations
-- preprocessing, EDA, and reporting
-- classification and regression workflows
+# 🚀 Portfolio Highlights
+
+## 🌟 Flagship Build — Urdu Voice Chatbot with LangChain RAG
+The strongest practical build in this repository is the **Assignment 09 Urdu Voice Chatbot with LangChain RAG** project.
+
+This project demonstrates a full document-grounded AI workflow:
+
+- upload PDF files as a knowledge base
+- build a LangChain RAG pipeline
+- retrieve relevant document chunks
+- ask questions in Urdu through typed or voice input
+- generate grounded Urdu answers
+- convert answers into Urdu speech
+- show source references from the uploaded PDFs
+- deploy the project as a working Streamlit application
+
+### Explore it here:
+- [`12-rag-and-langchain-pipeline/`](./12-rag-and-langchain-pipeline/)
+- [`assignment-09-urdu-voice-chatbot/`](./12-rag-and-langchain-pipeline/assignments/assignment-09-urdu-voice-chatbot/)
+- [`assignment-07-streamlit-voice-chatbot-application/`](./12-rag-and-langchain-pipeline/assignments/assignment-07-streamlit-voice-chatbot-application/)
+
+### Live app links:
+- **Assignment 07 — Urdu Voice Chatbot Application:** `PASTE_STREAMLIT_LINK_HERE`
+- **Assignment 09 — Urdu Voice Chatbot with LangChain RAG:** `PASTE_STREAMLIT_LINK_HERE`
+
+These projects are the strongest showcase pieces in the repo because they move beyond notebook experiments into **real, interactive, deployable AI applications**.
 
 ---
 
 # 🧭 Quick Navigation
 
-- [`01-orientation-and-roadmap/`](./01-orientation-and-roadmap/) — course direction, expectations, and how I am approaching this portfolio
-- [`02-ai-foundations-and-genai/`](./02-ai-foundations-and-genai/) — AI basics, ML essentials, DL, GenAI, prompting, and diffusion concepts
-- [`03-python-programming-foundations/`](./03-python-programming-foundations/) — Python basics, data structures, operators, logic, loops, and functions
-- [`04-openai-api-and-huggingface/`](./04-openai-api-and-huggingface/) — API usage, OpenAI concepts, Hugging Face pipelines, and practical notebook work
-- [`05-data-science-foundations/`](./05-data-science-foundations/) — data science process, EDA, preprocessing, and analytical thinking
-- [`06-machine-learning-foundations/`](./06-machine-learning-foundations/) — classification, regression, model building, and evaluation workflows
+- [`01-orientation-and-roadmap/`](./01-orientation-and-roadmap/) — course direction, expectations, learning mindset, and portfolio strategy
+- [`02-ai-foundations-and-genai/`](./02-ai-foundations-and-genai/) — AI roadmap, ML basics, deep learning basics, GenAI, prompting, diffusion models
+- [`03-python-programming-foundations/`](./03-python-programming-foundations/) — Python fundamentals, collections, operators, control flow, loops, functions
+- [`04-openai-api-and-huggingface/`](./04-openai-api-and-huggingface/) — API concepts, OpenAI usage patterns, Hugging Face pipelines and notebook practice
+- [`05-data-science-foundations/`](./05-data-science-foundations/) — data science basics, EDA, preprocessing, reporting, and research work
+- [`06-machine-learning-foundations/`](./06-machine-learning-foundations/) — classification, regression, datasets, notebooks, and research
+- [`07-model-evaluation-and-metrics/`](./07-model-evaluation-and-metrics/) — confusion matrix, precision, recall, F1-score, ROC, AUC, specificity
+- [`08-deep-learning-foundations-and-artificial-neural-networks/`](./08-deep-learning-foundations-and-artificial-neural-networks/) — deep learning motivation, ANN basics, hyperparameters, NumPy, Fashion MNIST
+- [`09-convolutional-neural-networks/`](./09-convolutional-neural-networks/) — CNN fundamentals, filters, kernels, strides, padding, pooling, CIFAR-10 concepts
+- [`10-autoencoders-and-variational-autoencoders/`](./10-autoencoders-and-variational-autoencoders/) — autoencoders, latent space, VAEs, and research work
+- [`11-sequence-models-and-transformers/`](./11-sequence-models-and-transformers/) — RNNs, LSTMs, Seq2Seq, attention, Transformer foundations, BERT vs GPT
+- [`12-rag-and-langchain-pipeline/`](./12-rag-and-langchain-pipeline/) — document loading, chunking, embeddings, vector DBs, retrieval, LCEL, RAG apps, and research
 
 ---
 
-# 🎯 Current Portfolio Coverage
+# 🗺️ Repository Coverage
 
-## 1) 🧭 Orientation and Roadmap
-This section captures the starting point of the course and the mindset behind the learning journey.
+## 1) Orientation and Roadmap
+This section documents the starting point of the course and the learning mindset behind the entire portfolio.
 
 It covers:
 - course expectations
-- consistency and self-study mindset
-- digital footprint thinking
-- portfolio building
-- applying AI to an existing technical background
+- portfolio thinking
+- digital footprint mindset
+- learning consistency
+- linking AI learning with a real technical background
 
----
-
-## 2) 🧠 AI Foundations and Generative AI
-This section brings together the first conceptual block of the course.
+## 2) AI Foundations and Generative AI
+This section captures the first conceptual layer of the course.
 
 It covers:
 - AI, ML, and DL hierarchy
 - supervised, unsupervised, and reinforcement learning
-- structured and unstructured data
-- neural networks and deep learning
+- structured vs unstructured data
+- neural network basics
 - discriminative vs generative AI
 - prompt engineering
-- diffusion models and negative prompting
+- diffusion models
 
----
-
-## 3) 🐍 Python Programming Foundations
-This section covers the Python base used in later notebooks and assignments.
+## 3) Python Programming Foundations
+This section forms the programming base for later AI work.
 
 It covers:
-- programming mindset and ethics
 - variables and data types
 - strings and collections
 - operators
-- conditionals
+- conditional logic
 - loops
-- while loops
 - functions
+- assignment-based Python practice
 
----
-
-## 4) 🔌 OpenAI API and Hugging Face
-This section focuses on practical model usage and integration patterns.
+## 4) OpenAI API and Hugging Face
+This section focuses on using models through APIs and libraries.
 
 It covers:
 - API fundamentals
-- OpenAI client usage
-- sentiment analysis
-- prompt-guided behavior
-- Hugging Face overview
-- pipelines for NLP and image-related tasks
+- model access patterns
+- sentiment analysis and text tasks
+- Hugging Face pipelines
+- notebook practice around applied model usage
 
----
-
-## 5) 📊 Data Science Foundations
-This section captures the analytical foundation of the course.
+## 5) Data Science Foundations
+This section captures the analytical foundation needed before machine learning work.
 
 It covers:
-- what data science is
-- data acquisition and understanding
+- data science workflow
 - data types and attributes
 - EDA
-- central tendency, dispersion, and proximity
-- preprocessing and transformation
-- reporting and visual storytelling
+- preprocessing
+- transformation
+- reporting and visualization
+- assignment and research work
 
----
-
-## 6) 📈 Machine Learning Foundations
-This section reflects the first major applied machine learning block.
+## 6) Machine Learning Foundations
+This section reflects the first major applied ML block in the course.
 
 It covers:
-- Titanic data preprocessing
+- preprocessing
 - feature preparation
-- classification models
-- regression models
+- classification
+- regression
 - model comparison
-- evaluation basics
+- practical datasets
+- notebooks, assignment, and research work
 
----
+## 7) Model Evaluation and Metrics
+This section expands the ML block by focusing on evaluation quality.
 
-# 🗺️ Full Course Roadmap
+It covers:
+- why accuracy alone is not enough
+- confusion matrix
+- precision and recall
+- F1-score
+- ROC and AUC
+- specificity and error tradeoffs
 
-This portfolio currently documents **Orientation + Lectures 1–19**, but the course itself continues into the following major areas which will be added as I progress further:
+## 8) Deep Learning Foundations and ANN
+This section marks the transition from classical ML into deep learning.
 
-| Stage | Topics |
-|------|--------|
-| Current documented stage | Orientation, AI foundations, GenAI, Python, APIs, Hugging Face, Data Science, Classification, Regression |
-| Next stage in the course | Evaluation Metrics I and II |
-| Deep learning continuation | Introduction to Deep Learning, Basics of Deep Learning, ANN |
-| Computer vision block | CNN foundations and advanced CNN work |
-| Representation learning block | Autoencoders, Variational Autoencoders |
-| Sequence modeling block | RNN, LSTM, and code practice |
-| Transformer block | Transformer theory and continuation lectures |
-| RAG and LangChain block | LangChain introduction, splitters, embeddings, vector databases, retrieval, and LCEL |
+It covers:
+- why deep learning became dominant
+- neural network architecture
+- learning rate, epochs, and batch size
+- gradient descent and training behavior
+- NumPy foundation for deep learning
+- ANN practice with image data
 
-This means the repository is intentionally designed to grow from an early AI / ML learning portfolio into a broader deep learning and RAG learning repository over time.
+## 9) Convolutional Neural Networks
+This section covers the core deep learning architecture for computer vision.
+
+It covers:
+- why CNNs are better than fully connected networks for images
+- filters and feature detectors
+- convolution
+- strides and padding
+- pooling
+- CNN-based image learning concepts
+
+## 10) Autoencoders and Variational Autoencoders
+This section covers representation learning and generative modeling foundations.
+
+It covers:
+- encoder-decoder architecture
+- latent space and bottleneck representation
+- reconstruction learning
+- vanilla autoencoders
+- denoising autoencoders
+- convolutional autoencoders
+- variational autoencoders
+- research work on use cases and types
+
+## 11) Sequence Models and Transformers
+This section captures the progression from sequential models to modern language-model foundations.
+
+It covers:
+- time-series data
+- RNNs
+- GRUs and LSTMs
+- Seq2Seq
+- attention mechanism
+- text generation
+- Transformer foundations
+- BERT vs GPT
+
+## 12) RAG and LangChain Pipeline
+This is the most application-heavy and portfolio-strong section of the entire repository.
+
+It covers:
+- RAG foundations
+- document loading
+- text splitting and chunking
+- embeddings
+- vector databases
+- retrieval strategies
+- metadata filtering
+- LCEL and chain building
+- deployable chatbot projects
+- research work on RAG and HTML DOM structure
 
 ---
 
 # 🧱 Repository Architecture
 
 ```text
-AI-Advanced-Course-Portfolio/
+AI-Advanced-Course-Portfolio-main/
 ├── 01-orientation-and-roadmap/
-│   ├── README.md
-│   └── notes/
 ├── 02-ai-foundations-and-genai/
-│   ├── README.md
-│   └── notes/
 ├── 03-python-programming-foundations/
-│   ├── README.md
+│   ├── notes/
 │   ├── notebooks/
-│   ├── assignments/
-│   └── notes/
+│   └── assignments/
 ├── 04-openai-api-and-huggingface/
-│   ├── README.md
+│   ├── notes/
 │   ├── notebooks/
-│   ├── assignments/
-│   └── notes/
+│   └── assignments/
 ├── 05-data-science-foundations/
-│   ├── README.md
+│   ├── notes/
 │   ├── assignments/
-│   ├── research/
-│   └── notes/
+│   └── research/
 ├── 06-machine-learning-foundations/
-│   ├── README.md
+│   ├── notes/
+│   ├── notebooks/
+│   ├── datasets/
+│   ├── assignments/
+│   └── research/
+├── 07-model-evaluation-and-metrics/
+│   └── notes/
+├── 08-deep-learning-foundations-and-artificial-neural-networks/
+│   ├── notes/
+│   ├── notebooks/
+│   └── assignments/
+├── 09-convolutional-neural-networks/
+│   ├── notes/
+│   └── assignments/
+├── 10-autoencoders-and-variational-autoencoders/
+│   ├── notes/
+│   ├── notebooks/
+│   └── research/
+├── 11-sequence-models-and-transformers/
+│   ├── notes/
+│   └── notebooks/
+├── 12-rag-and-langchain-pipeline/
+│   ├── notes/
 │   ├── notebooks/
 │   ├── assignments/
-│   ├── research/
-│   ├── datasets/
-│   └── notes/
+│   │   ├── assignment-07-streamlit-voice-chatbot-application/
+│   │   └── assignment-09-urdu-voice-chatbot/
+│   └── research/
 └── README.md
-```
+````
 
 ---
 
-# 📚 Topic Structure Philosophy
+# 🧪 What This Repository Contains
 
-Each topic folder is designed to work as a self-contained portfolio section.
+This portfolio includes:
 
-That means every section is written to show:
+* topic-wise README documentation
+* human-written learning notes in Markdown
+* Google Colab notebook practice
+* assignment solutions
+* research assignment reports
+* working Streamlit projects
+* datasets used for practice
+* screenshots and audio outputs for deployed application demos
 
-- the lecture coverage for that block
-- the concepts I studied
-- the ideas I understood in my own words
-- the notebooks that belong to that section
-- the assignments and research items linked to that section
-- the practical value of that topic in a larger AI learning journey
-
-This structure makes the repository easier to read for:
-- recruiters
-- reviewers
-- collaborators
-- future me
+This makes the repository more than a notes archive. It functions as a **learning record + project portfolio + implementation showcase**.
 
 ---
 
-# 🧪 Practice and Assignment Placement
+# 🏗️ Build Philosophy
 
-The practical notebook work is distributed directly inside the topic it belongs to.
+I designed this repository around a simple workflow:
 
-### Example:
-- Python notebooks live inside `03-python-programming-foundations/notebooks/`
-- API and Hugging Face notebooks live inside `04-openai-api-and-huggingface/notebooks/`
-- ML notebooks live inside `06-machine-learning-foundations/notebooks/`
+**Study → Understand → Practice → Build → Document → Publish**
 
-The same logic applies to assignments:
+That means each section is not only about theory. It is meant to show progression from lecture learning into practical implementation.
 
-- Python assignments are kept inside the Python topic folder
-- OpenAI and Hugging Face assignment stays inside the API / Hugging Face folder
-- Data Science assignment and research work stay inside the Data Science folder
-- Machine Learning assignment and research work stay inside the Machine Learning folder
+The overall structure also reflects how I want technical work to appear on GitHub:
 
-This keeps the repository organized around learning blocks instead of detached file types.
-
----
-
-# 🧠 Why This Repository Matters To Me
-
-My wider technical background is rooted in:
-
-- cybersecurity
-- SOC workflows
-- security automation
-- Linux and AWS monitoring
-- AI-assisted workflow building
-
-I am using this course to build a stronger AI foundation in a way that is practical, documented, and portfolio-ready.
-
-This repository matters to me because it turns my study process into something visible, structured, and useful.
-
-It shows:
-- seriousness in learning
-- consistency in practice
-- clarity in documentation
-- growth from theory into implementation
+* organized
+* readable
+* recruiter-friendly
+* topic-grouped
+* project-backed
+* easy to explore
 
 ---
 
-# 🚀 How To Read This Repository
+# 🔥 Featured Practical Work
 
-### Recommended reading order
+## Assignment 07 — Streamlit Urdu Voice Chatbot Application
 
-1. Start with [`01-orientation-and-roadmap/`](./01-orientation-and-roadmap/)
-2. Move into [`02-ai-foundations-and-genai/`](./02-ai-foundations-and-genai/)
-3. Continue with [`03-python-programming-foundations/`](./03-python-programming-foundations/)
-4. Then review [`04-openai-api-and-huggingface/`](./04-openai-api-and-huggingface/)
-5. Continue into [`05-data-science-foundations/`](./05-data-science-foundations/)
-6. Finish the current documented stage with [`06-machine-learning-foundations/`](./06-machine-learning-foundations/)
+A Streamlit-based Urdu chatbot application with typed and voice interaction plus speech output.
+
+Explore:
+
+* [`Assignment 07 folder`](./12-rag-and-langchain-pipeline/assignments/assignment-07-streamlit-voice-chatbot-application/)
+
+## Assignment 09 — Urdu Voice Chatbot with LangChain RAG
+
+A deployed RAG-based chatbot that works with uploaded PDFs, Urdu queries, source retrieval, and Urdu audio responses.
+
+Explore:
+
+* [`Assignment 09 folder`](./12-rag-and-langchain-pipeline/assignments/assignment-09-urdu-voice-chatbot/)
+
+## Research Work
+
+This portfolio also includes research-based learning outputs in key areas:
+
+* classification models and metrics
+* data science and Titanic analysis
+* autoencoders and their use cases
+* Retrieval-Augmented Generation
+* HTML DOM structure
+
+---
+
+# 📚 Skills and Concepts Covered
+
+Through this repository, I worked across:
+
+* AI fundamentals
+* machine learning basics
+* deep learning concepts
+* neural network fundamentals
+* CNNs
+* autoencoders and VAEs
+* RNNs, LSTMs, and Transformers
+* prompt engineering
+* OpenAI and Hugging Face usage
+* data science workflow
+* preprocessing and EDA
+* model evaluation metrics
+* vector databases
+* embeddings
+* retrieval systems
+* RAG with LangChain
+* Streamlit application building
+* multilingual chatbot workflows
+* portfolio-driven technical documentation
+
+---
+
+# 🧠 Why the RAG Section Matters Most
+
+The **RAG and LangChain Pipeline** section is the strongest representation of how this course moved from theory into practical system building.
+
+That part of the repo shines because it brings together multiple layers of learning in one place:
+
+* language model interaction
+* document ingestion
+* chunking strategy
+* embeddings
+* retrieval logic
+* answer grounding
+* source references
+* multilingual interaction
+* voice workflow
+* deployment
+
+It is the section that best demonstrates the shift from “learning AI concepts” to **building usable AI applications**.
+
+---
+
+# 🎯 Outcome of This Portfolio
+
+This repository represents:
+
+* full topic-wise coverage of the course
+* notebook-based practice across multiple AI stages
+* assignment and research completion
+* transition from foundational AI learning into deep learning and RAG
+* deployment of practical Streamlit applications
+* a documentation-heavy GitHub portfolio built to showcase serious AI learning work
 
 ---
 
@@ -303,6 +433,8 @@ It shows:
 **Abdul Rehman**
 
 Cybersecurity • Security Automation • Linux • AWS Monitoring • AI Learning • AI Workflow Building
+
+I use GitHub as a place to document technical learning in a structured, practical, and portfolio-first way. This repository reflects that same style by combining study notes, notebooks, assignments, research work, and working AI projects into one organized learning system.
 
 <p align="left">
   <a href="https://github.com/abdul4rehman215">
@@ -316,10 +448,25 @@ Cybersecurity • Security Automation • Linux • AWS Monitoring • AI Learni
   </a>
 </p>
 
+
 ---
 
 # ⭐ Final Note
 
-This repository is being built as a long-term AI learning portfolio.
+This repository started as a course-learning space, but it evolved into a much stronger portfolio project.
 
-Right now it reflects my progress through the first 19 lectures of the course. As I continue the remaining parts of the course, I will keep extending this portfolio with deeper machine learning, deep learning, transformer, and RAG-related work.
+The final result is not just a record of lectures completed.
+It is a structured showcase of:
+
+* concepts studied
+* notebooks practiced
+* assignments completed
+* research work documented
+* AI applications built
+* deployable RAG work demonstrated
+
+If you explore only one section first, start with:
+
+## 👉 [`12-rag-and-langchain-pipeline/`](./12-rag-and-langchain-pipeline/)
+
+That section is the clearest example of how this portfolio moves from theory into real AI system implementation.
