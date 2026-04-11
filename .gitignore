@@ -14,6 +14,10 @@ private/
 config.local.*
 config.private.*
 
+# Streamlit secrets / local app config
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
 # API keys / service accounts / tokens
 service-account*.json
 *service_account*.json
@@ -44,6 +48,14 @@ venv/
 env/
 ENV/
 
+# Extra Python / packaging caches
+.pytype/
+.dmypy.json
+.pyre/
+.tox/
+.nox/
+.cache/
+
 # --- Jupyter / Colab ---
 .ipynb_checkpoints/
 .profile_default/
@@ -55,6 +67,7 @@ dist/
 *.egg-info/
 .eggs/
 pip-wheel-metadata/
+site/
 
 # --- Test / lint / coverage ---
 .pytest_cache/
@@ -77,8 +90,11 @@ logs/
 tmp/
 temp/
 
-# --- Local datasets / large generated files (optional) ---
-# Uncomment if you do NOT want local data files tracked
+# --- OS / misc ---
+.desktop.ini
+
+# --- Optional local data / outputs ---
+# Uncomment these only if you do NOT want local-only generated files tracked
 # data/
 # datasets/
 # outputs/
