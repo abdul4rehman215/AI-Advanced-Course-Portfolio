@@ -16,10 +16,8 @@ This assignment is focused on building a Streamlit-based voice chatbot applicati
 
 ## Files for this folder
 ```text
-assignment-brief.pdf
 app.py
 requirements.txt
-README.md
 ```
 
 This assignment belongs inside the RAG and LangChain Pipeline section because it reflects the practical application-building phase of the course where language model systems, user interaction, and real workflow integration become the main focus.
