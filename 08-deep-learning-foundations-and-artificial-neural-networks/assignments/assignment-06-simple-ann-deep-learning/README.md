@@ -16,9 +16,7 @@ This assignment is centered on core artificial neural network concepts and a fir
 
 ## Files for this folder
 ```text
-assignment-brief.pdf
 Assignment_06_Abdul_Rehman.ipynb
-README.md
 ```
 
 This assignment belongs inside the Deep Learning Foundations and Artificial Neural Networks section because it directly extends the lectures where I studied neural network structure, activation functions, training flow, and early ANN implementation.
