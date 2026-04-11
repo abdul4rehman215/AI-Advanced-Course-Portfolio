@@ -8,4 +8,4 @@ faiss-cpu>=1.8.0
 pypdf>=5.0.0
 SpeechRecognition>=3.10.0
 gTTS>=2.5.0
-python-dotenv>=1.0.0
+
