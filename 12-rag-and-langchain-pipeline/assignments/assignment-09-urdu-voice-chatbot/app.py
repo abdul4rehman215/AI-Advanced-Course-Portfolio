@@ -4,9 +4,9 @@ import tempfile
 from pathlib import Path
 from typing import List, Tuple
 
+import speech_recognition as sr
 import streamlit as st
 from gtts import gTTS
-import speech_recognition as sr
 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
@@ -15,7 +15,11 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 APP_TITLE = "Urdu Voice Chatbot with LangChain RAG"
 DEFAULT_MODEL = "gemini-2.5-flash"
-EMBEDDING_MODEL = "models/gemini-embedding-001"
+
+# Use the plain Gemini embedding model id for Python/LangChain use.
+EMBEDDING_MODEL = "gemini-embedding-001"
+EMBEDDING_TASK_TYPE = "SEMANTIC_SIMILARITY"
+EMBEDDING_DIMENSION = 768
 
 st.set_page_config(page_title=APP_TITLE, page_icon="🎙️", layout="wide")
 
@@ -47,6 +51,15 @@ def init_state() -> None:
 init_state()
 
 
+def create_embeddings(google_api_key: str) -> GoogleGenerativeAIEmbeddings:
+    return GoogleGenerativeAIEmbeddings(
+        model=EMBEDDING_MODEL,
+        google_api_key=google_api_key,
+        task_type=EMBEDDING_TASK_TYPE,
+        output_dimensionality=EMBEDDING_DIMENSION,
+    )
+
+
 def save_uploaded_pdfs(uploaded_files) -> List[str]:
     temp_dir = tempfile.mkdtemp(prefix="urdu_rag_pdfs_")
     saved_paths: List[str] = []
@@ -62,17 +75,27 @@ def save_uploaded_pdfs(uploaded_files) -> List[str]:
 
 def load_pdf_documents(pdf_paths: List[str]):
     docs = []
+    skipped_files = []
 
     for path in pdf_paths:
         loader = PyPDFLoader(path)
         file_docs = loader.load()
 
+        kept_count = 0
         for doc in file_docs:
+            text = (doc.page_content or "").strip()
+            if not text:
+                continue
+
+            doc.page_content = text
             doc.metadata["source_name"] = Path(path).name
+            docs.append(doc)
+            kept_count += 1
 
-        docs.extend(file_docs)
+        if kept_count == 0:
+            skipped_files.append(Path(path).name)
 
-    return docs
+    return docs, skipped_files
 
 
 def build_vectorstore(
@@ -81,7 +104,14 @@ def build_vectorstore(
     chunk_size: int,
     chunk_overlap: int,
 ):
-    raw_docs = load_pdf_documents(pdf_paths)
+    raw_docs, skipped_files = load_pdf_documents(pdf_paths)
+
+    if not raw_docs:
+        skipped_label = ", ".join(skipped_files) if skipped_files else "the uploaded PDF file(s)"
+        raise ValueError(
+            f"No extractable text was found in {skipped_label}. "
+            "Please upload a normal text-based PDF."
+        )
 
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
@@ -90,14 +120,32 @@ def build_vectorstore(
     )
 
     split_docs = splitter.split_documents(raw_docs)
+    split_docs = [doc for doc in split_docs if (doc.page_content or "").strip()]
 
-    embeddings = GoogleGenerativeAIEmbeddings(
-        model=EMBEDDING_MODEL,
-        google_api_key=google_api_key,
+    if not split_docs:
+        raise ValueError(
+            "The PDF was loaded, but no usable text chunks were produced."
+        )
+
+    texts = [doc.page_content.strip() for doc in split_docs]
+    metadatas = [doc.metadata for doc in split_docs]
+
+    embeddings = create_embeddings(google_api_key)
+
+    # Pre-check that the embedding call actually returns vectors.
+    test_vectors = embeddings.embed_documents(texts[: min(3, len(texts))])
+    if not test_vectors or not test_vectors[0]:
+        raise ValueError(
+            "Embeddings could not be generated from the extracted PDF text."
+        )
+
+    vectorstore = FAISS.from_texts(
+        texts=texts,
+        embedding=embeddings,
+        metadatas=metadatas,
     )
 
-    vectorstore = FAISS.from_documents(split_docs, embeddings)
-    return vectorstore, split_docs
+    return vectorstore, split_docs, skipped_files
 
 
 def transcribe_urdu_audio(audio_bytes: bytes) -> str:
@@ -149,12 +197,28 @@ def generate_urdu_answer(
     model_name: str,
     retriever_k: int,
 ) -> Tuple[str, List[str], List]:
+    safe_query = query.strip()
+    if not safe_query:
+        raise ValueError("Query is empty.")
+
     retriever = st.session_state.vectorstore.as_retriever(
         search_kwargs={"k": retriever_k}
     )
-    retrieved_docs = retriever.invoke(query)
+
+    try:
+        retrieved_docs = retriever.invoke(safe_query)
+    except Exception as e:
+        raise RuntimeError(
+            "Retrieval failed while embedding the query. "
+            "Please rebuild the knowledge base and try again."
+        ) from e
+
     context = "\n\n".join(doc.page_content for doc in retrieved_docs)
     source_labels = format_sources(retrieved_docs)
+
+    if not context.strip():
+        answer = "معذرت، اپ لوڈ کی گئی PDF فائلوں میں اس سوال سے متعلق واضح معلومات نہیں مل سکیں۔"
+        return answer, source_labels, retrieved_docs
 
     system_prompt = (
         "آپ ایک مددگار اردو RAG چیٹ بوٹ ہیں۔ "
@@ -169,7 +233,7 @@ Context:
 {context}
 
 User question:
-{query}
+{safe_query}
 
 Please answer in Urdu only.
 """
@@ -240,6 +304,8 @@ with st.sidebar:
         st.session_state.last_transcript = ""
         st.session_state.last_answer = ""
         st.session_state.last_audio_bytes = None
+        st.session_state.vectorstore = None
+        st.session_state.indexed_files = []
         st.success("Chat history cleared.")
 
     if build_clicked:
@@ -253,7 +319,7 @@ with st.sidebar:
             ):
                 try:
                     pdf_paths = save_uploaded_pdfs(uploaded_pdfs)
-                    vectorstore, split_docs = build_vectorstore(
+                    vectorstore, split_docs, skipped_files = build_vectorstore(
                         pdf_paths=pdf_paths,
                         google_api_key=google_api_key,
                         chunk_size=chunk_size,
@@ -261,9 +327,19 @@ with st.sidebar:
                     )
                     st.session_state.vectorstore = vectorstore
                     st.session_state.indexed_files = [file.name for file in uploaded_pdfs]
+
                     st.success(
                         f"Knowledge base ready. Indexed {len(uploaded_pdfs)} PDF file(s) into {len(split_docs)} chunks."
                     )
+
+                    if skipped_files:
+                        st.warning(
+                            "These files had no extractable text and were skipped: "
+                            + ", ".join(skipped_files)
+                        )
+
+                except ValueError as e:
+                    st.error(str(e))
                 except Exception as e:
                     st.exception(e)
 
@@ -362,6 +438,10 @@ if submit:
                             "sources": source_labels,
                         }
                     )
+                except ValueError as e:
+                    st.error(str(e))
+                except RuntimeError as e:
+                    st.error(str(e))
                 except Exception as e:
                     st.exception(e)
 
