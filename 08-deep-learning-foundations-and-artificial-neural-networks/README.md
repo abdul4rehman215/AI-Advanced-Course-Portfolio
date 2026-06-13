@@ -130,8 +130,6 @@ This is one of the most important foundational blocks in the later half of the c
 
 ---
 
----
-
 ## 🌐 Project Post on LinkedIn
 
 I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
