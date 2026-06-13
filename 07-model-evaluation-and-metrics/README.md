@@ -120,8 +120,6 @@ In other words, evaluation is not a finishing step. It is part of responsible sy
 
 ---
 
----
-
 ## 🌐 Project Post on LinkedIn
 
 I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
