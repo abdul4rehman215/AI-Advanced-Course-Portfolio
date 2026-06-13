@@ -130,6 +130,16 @@ This is one of the most important foundational blocks in the later half of the c
 
 ---
 
+---
+
+## 🌐 Project Post on LinkedIn
+
+I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_deep-learning-foundations-ann-learning-activity-7450098098099425280-nM5k?)
+
+---
+
 # 🔗 Connection To The Next Stage
 
 After learning dense neural networks, the course naturally moves into Convolutional Neural Networks.
