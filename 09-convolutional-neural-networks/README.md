@@ -118,8 +118,6 @@ This section also strengthened my intuition for later topics such as:
 
 ---
 
----
-
 ## 🌐 Project Post on LinkedIn
 
 I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
@@ -127,7 +125,6 @@ I also shared this project on LinkedIn with a concise portfolio summary, key hig
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_convolutional-neural-networks-cnn-learning-activity-7450460484744691712-7gtU?)
 
 ---
-
 
 # 🔗 Connection To The Next Stage
 
