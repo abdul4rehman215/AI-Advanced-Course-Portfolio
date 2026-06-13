@@ -120,6 +120,16 @@ In other words, evaluation is not a finishing step. It is part of responsible sy
 
 ---
 
+---
+
+## 🌐 Project Post on LinkedIn
+
+I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_model-evaluation-metrics-learning-portfolio-activity-7449735720266596352-y_0v?)
+
+---
+
 # 🔗 Connection To The Next Stage
 
 After evaluation metrics, the course moves into deep learning foundations and artificial neural networks.
