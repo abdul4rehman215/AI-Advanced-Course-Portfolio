@@ -88,6 +88,16 @@ That fits well with my larger technical direction in cybersecurity, automation, 
 
 ---
 
+---
+
+## 🌐 Project Post on LinkedIn
+
+I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_learninginpublic-ai-cybersecurity-activity-7447557283166941184-n8AY?)
+
+---
+
 # 🔗 Connection To The Next Section
 
 The orientation created the learning mindset for the rest of the course.
