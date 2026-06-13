@@ -92,8 +92,6 @@ Without this base, later sections like APIs, Hugging Face, data science, and mac
 
 ---
 
----
-
 ## 🌐 Project Post on LinkedIn
 
 I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
@@ -101,7 +99,6 @@ I also shared this project on LinkedIn with a concise portfolio summary, key hig
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_ai-foundation-and-generative-ai-learning-activity-7447923781261795328-_4co?)
 
 ---
-
 
 # 🔗 Connection To The Next Section
 
