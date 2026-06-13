@@ -101,6 +101,17 @@ That makes this section essential for more reliable machine learning work later.
 
 ---
 
+---
+
+## 🌐 Project Post on LinkedIn
+
+I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_openai-api-hugging-face-learning-portfolio-activity-7448648571043749888-oCCd?)
+
+---
+
+
 # 🔗 Connection To The Next Section
 
 After learning the data science process, the course moved into model-focused notebook work through classification and regression. That next section shows how the data preparation concepts begin to power actual model building.
