@@ -128,6 +128,14 @@ This block is one of the most strategically important sections in the whole port
 
 ---
 
+## 🌐 Project Post on LinkedIn
+
+I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_sequence-models-and-transformers-learning-activity-7451185312594067456-RbOP?)
+
+---
+
 # 🔗 Connection To The Next Stage
 
 After this sequence-model block, the course moves into Retrieval-Augmented Generation and LangChain-based system building.
