@@ -107,7 +107,7 @@ That makes this section essential for more reliable machine learning work later.
 
 I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_openai-api-hugging-face-learning-portfolio-activity-7448648571043749888-oCCd?)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_data-science-foundations-learning-portfolio-activity-7449010928903421952-rsIX?)
 
 ---
 
