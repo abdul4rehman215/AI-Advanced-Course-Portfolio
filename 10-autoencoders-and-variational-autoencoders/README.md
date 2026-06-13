@@ -123,6 +123,14 @@ It was one of the sections that made deep learning feel broader and more creativ
 
 ---
 
+## 🌐 Project Post on LinkedIn
+
+I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_autoencoders-and-variational-autoencoders-activity-7450822902775554048-96-J?)
+
+---
+
 # 🔗 Connection To The Next Stage
 
 After autoencoders, the course moves into sequential data, RNNs, LSTMs, Seq2Seq, attention, and transformers.
