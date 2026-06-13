@@ -101,8 +101,6 @@ That makes this section essential for more reliable machine learning work later.
 
 ---
 
----
-
 ## 🌐 Project Post on LinkedIn
 
 I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
