@@ -113,6 +113,17 @@ Without this base, later practical work becomes shallow. With this base, later w
 
 ---
 
+---
+
+## 🌐 Project Post on LinkedIn
+
+I also shared this project on LinkedIn with a concise portfolio summary, key highlights, and implementation context.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-View%20Project%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/abdul4rehman215_python-programming-foundations-ai-learning-activity-7448286163406323713-w3Wf?)
+
+---
+
+
 # 🔗 Connection To The Next Section
 
 After building the Python foundation, the course moved into practical AI tooling through APIs and Hugging Face. That next section shows how Python fundamentals start getting used for real AI tasks.
